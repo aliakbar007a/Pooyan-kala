@@ -1,0 +1,32 @@
+.footer-mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 5rem;
+    width: 100%;
+}
+
+.howBuyul{
+    list-style-type: none;
+    margin: 10px 0px;
+}
+.howBuyul li{
+    font-size: 18px;
+}
+.footerLi{
+    font-size: 15px;
+}
+.owd{
+    font-size: 25px;
+} 
+
+@media screen and (max-width:768px){
+    .footer-mid{
+       flex-direction: column;
+       text-align: end;
+       align-items: end;
+    }
+    .nav-menu1 .nav-menu2 .nav-menu3{
+        border-bottom: 1px solid #000;
+    }
+}

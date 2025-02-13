@@ -1,0 +1,29 @@
+.instagram{
+   
+    width: 40%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 4px;
+    left: 155px;
+    bottom: 25px;
+    background: linear-gradient(
+    to right,
+    #833ab4,#fd1d1d,#fcb045
+  );
+  margin: 0px auto;
+}
+.instagram > a{
+    text-decoration: none;
+    
+    left: 15px;
+    top: 3px;
+    color: #fff;
+}
+.instagram > a > img{
+    position: relative;
+    margin-right: 10px;
+    top: 3px;
+}
+@media screen and (max-width:768px){
+    
+}

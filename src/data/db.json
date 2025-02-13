@@ -1,0 +1,95 @@
+{
+    "trips": [
+        {"title":"4 night stay in tehran" , "price":"14 mil" , "id":1, "loc":"Iran"},
+        {"title":"4 night stay in tabriz" , "price":"14 mil" , "id":2, "loc":"Iran"},
+        {"title":"4 night stay in esfahan" , "price":"14 mil" , "id":3, "loc":"Iran"},
+        {"title":"4 night stay in istanboul" , "price":"14 mil" , "id":4, "loc":"Tourky"},
+        {"title":"4 night stay in new york" , "price":"14 mil" , "id":5, "loc":"Usa"},
+        {"title":"4 night stay in qom" , "price":"5 mil" , "id":6, "loc":"Iran"}
+    ],
+    "pages": [
+        {"title":"Home Page" , "capshen":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium quo natus tempora voluptates laboriosam consequuntur aliquid, facilis magnam. Odit vero distinctio assumenda architecto recusandae, fugit et officia blanditiis dignissimos?" , "id":1 , "art": "ali"},
+        {"title":"Contact Page" , "capshen":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium quo natus tempora voluptates laboriosam consequuntur aliquid, facilis magnam. Odit vero distinctio assumenda architecto recusandae, fugit et officia blanditiis dignissimos?" , "id":2 , "art": "amad"},
+        {"title":"About Page" , "capshen":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium quo natus tempora voluptates laboriosam consequuntur aliquid, facilis magnam. Odit vero distinctio assumenda architecto recusandae, fugit et officia blanditiis dignissimos?" , "id":3 , "art": "losifer"},
+        {"title":"Profile Page" , "capshen":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium quo natus tempora voluptates laboriosam consequuntur aliquid, facilis magnam. Odit vero distinctio assumenda architecto recusandae, fugit et officia blanditiis dignissimos?" , "id":4 , "art": "jymi"}
+    ], 
+    "laptopArry":[
+        {"id":0 , "src":"../poyanKala/imgs/hhhh.png", "price":" 2000000 تومان", "capshen": "لپ تاب 15.6 اینچی ایسوس مدل vivoboock F1504VA-i3 1315U 8GB 512SSD UHD "},
+        {"id":1 , "src":"../poyanKala/imgs/hhhh.png", "price":" 2000000 تومان", "capshen": "لپ تاب 15.6 اینچی ایسوس مدل vivoboock F1504VA-i3 1315U 8GB 512SSD UHD "},
+        {"id":2 , "src":"../poyanKala/imgs/hhhh.png", "price":" 2000000 تومان", "capshen": "لپ تاب 15.6 اینچی ایسوس مدل vivoboock F1504VA-i3 1315U 8GB 512SSD UHD "},
+        {"id":3 , "src":"../poyanKala/imgs/hhhh.png", "price":" 2000000 تومان", "capshen": "لپ تاب 15.6 اینچی ایسوس مدل vivoboock F1504VA-i3 1315U 8GB 512SSD UHD "},
+        {"id":4 , "src":"../poyanKala/imgs/hhhh.png", "price":" 2000000 تومان", "capshen": "لپ تاب 15.6 اینچی ایسوس مدل vivoboock F1504VA-i3 1315U 8GB 512SSD UHD "}
+    ],
+    "ps5Arry":[
+        {"id":0 , "src":"../poyanKala/imgs/ggg.png", "price":" 1000000 تومان", "capshen": "سونی  پلی استیشن 5 اسلیم استاندارد  ps5 slim standard اروپا 2016"},
+        {"id":1 , "src":"../poyanKala/imgs/ggg.png", "price":" 1000000 تومان", "capshen": "سونی  پلی استیشن 5 اسلیم استاندارد  ps5 slim standard اروپا 2016"},
+        {"id":2 , "src":"../poyanKala/imgs/ggg.png", "price":" 1000000 تومان", "capshen": "سونی  پلی استیشن 5 اسلیم استاندارد  ps5 slim standard اروپا 2016"},
+        {"id":3 , "src":"../poyanKala/imgs/ggg.png", "price":" 1000000 تومان", "capshen": "سونی  پلی استیشن 5 اسلیم استاندارد  ps5 slim standard اروپا 2016"},
+        {"id":4 , "src":"../poyanKala/imgs/ggg.png", "price":" 1000000 تومان", "capshen": "سونی  پلی استیشن 5 اسلیم استاندارد  ps5 slim standard اروپا 2016"},
+        {"id":5 , "src":"../poyanKala/imgs/ggg.png", "price":" 1000000 تومان", "capshen": "سونی  پلی استیشن 5 اسلیم استاندارد  ps5 slim standard اروپا 2016"}
+    ],
+    "logoPlayStation":[
+        {"id":0 , "src":"../poyanKala/logoPlaystation.png"},
+        {"id":1 , "src":"../poyanKala/logoPlaystation.png"},
+        {"id":2 , "src":"../poyanKala/logoPlaystation.png"},
+        {"id":3 , "src":"../poyanKala/logoPlaystation.png"},
+        {"id":4 , "src":"../poyanKala/logoPlaystation.png"},
+        {"id":5 , "src":"../poyanKala/logoPlaystation.png"}
+    ],
+    "listDropDown":[
+        {"id":0 , "drop":"مادربرد"},
+        {"id":1 , "drop":"کیس"},
+        {"id":2 , "drop":"مانیتور"},
+        {"id":3 , "drop":"کارت گرافیک"}
+    ],
+    "lapTopInfo":[
+        {"id":0, "info":"intel ١٣١٥U اصلى: يردازنده"},
+        {"id":1, "info":"DDRF كيگابايت ٨ رم: حافظه"},
+        {"id":2, "info":"SSD گیگابایت ۵١٢ داخلی: حافظه"},
+        {"id":3, "info":" Onboard كرافيكى: پردازنده حافظه"},
+        {"id":4, "info":"intel كرافيكى: يردازنده"},
+        {"id":5, "info":"FHD رزولوشن:"},
+        {"id":6, "info":"وزن : 1070گرم"},
+        {"id":7, "info":"ظرفیت باطری : 42 وات ساعت"},
+        {"id":8, "info":"اينچ ١٥.۶ نمايش: صفحه اندازه"}
+    ]
+    ,
+    "ps5Info":[
+        {"id":0, "info":"پردازنده هشت هسته‌ای Zen 2 با سرعت 3.5GHz و فرکانس متغیر "},
+        {"id":1, "info":"ظرفیت حافظه 1 ترابایت"},
+        {"id":2, "info":"ابعاد تصویر رزولوشن 4k و فریم ریت ۱۲۰ "},
+        {"id":3, "info":" Onboard كرافيكى: پردازنده حافظه"},
+        {"id":4, "info":" پورت USB جلو 2 عدد تایپ سی"},
+        {"id":5, "info":"UHD رزولوشن:"},
+        {"id":6, "info":"وزن : 1070گرم"}
+       
+    ],
+    "howBuyUl":[
+        {"id":0 , "note":"نحوه ثبت سفارش"},
+        {"id":1 , "note":"شیوه‌های پرداخت"},
+        {"id":2 , "note":"قوانین بازگشت کالا"}
+    ],
+    "servicesUl":[
+        {"id":0 ,"note":"پاسخ به پرسش‌های متداول "},
+        {"id":1 ,"note":"حریم خصوصی "},
+        {"id":2 ,"note":"تماس با ما"}
+    ],
+    "ourShopUl":[
+        {"id":0 ,"note":"اتاق خبر"},
+        {"id":1 ,"note":"فروشنده شو "},
+        {"id":2 ,"note":"درباره ما "}
+    ],
+    "shopCart":[
+        {"id": 0 , "productName": "" , "price": 0 }
+    ], "suggestions": [
+         {"id":0 , "title": "laptop"},
+         {"id":1 , "title": "لپ تاپ"},
+         {"id":2 , "title":  "ps5"},
+         {"id":3 , "title":  "پلی استیشن 5"},
+         {"id":4 , "title":  "سونی  پلی استیشن 5 اسلیم استاندارد  ps5 slim standard اروپا 2016"},
+         {"id":5 , "title":  "لپ تاب 15.6 اینچی ایسوس مدل vivoboock F1504VA-i3 1315U 8GB 512SSD UHD"}
+         
+        
+     ]
+    
+}

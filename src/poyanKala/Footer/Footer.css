@@ -1,0 +1,253 @@
+.footerSite{
+    height: auto;
+    background-color: #ebe5e5;
+    position: absolute;
+    width: 100%;
+    max-width: 1800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer > div > nav{
+    padding-top: 20px;
+    margin-top: 45px;
+}
+.c-footer{
+    display: flex;
+    background: url(https://www.digikala.com/static/files/8f570b58.svg) 50% 0 no-repeat;
+    width: 160px;
+    height: 150px;
+    justify-content: center;
+    margin-left: 1000px;
+    margin-top: 47px;
+    text-decoration: none;
+}
+.c-footer > p{
+    margin-top: 133px;
+    color: black;
+    font-size: 18px;
+}
+
+.c-footer2{
+    display: flex;
+    background: url(https://www.digikala.com/static/files/22414818.svg) 50% 0 no-repeat;
+    width: 160px;
+    height: 150px;
+    justify-content: center;
+    margin-left: 545px;
+    margin-top: -160px;
+    text-decoration: none;
+}
+.c-footer2 > p{
+    margin-top: 150px;
+    color: black;
+    font-size: 18px;
+}
+.c-footer3{
+    display: flex;
+    background:url(https://www.digikala.com/static/files/fdb293e6.svg) 50% 0 no-repeat;
+    width: 160px;
+    height: 150px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: -140px;
+    text-decoration: none;
+}
+.c-footer3 > p{
+    margin-top: 148px;
+    color: black;
+    font-size: 18px;
+}
+@media screen and (max-width:768px) {
+    
+    .nav-menu1{
+    display: block;
+    width: 90%;
+    right: 30px;
+    position: relative;
+    border-bottom: 1.5px solid;
+    }
+    .nav-menu2{
+    display: block;
+    width: 90%;
+    right: 30px;
+    position: relative;
+    border-bottom: 1.5px solid;
+    }
+    .nav-menu3{
+    display: block;
+    width: 90%;
+    right: 30px;
+    position: relative;
+    border-bottom: 1.5px solid;
+    }
+}
+/* .nav-menu1{
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+}
+
+.howBuyul{
+    position: relative;
+    top: 35px;
+    padding-top: 20px;
+    margin-top: 0px;
+    list-style-type: none;
+    margin-right: 35px;
+}
+.howBuyLi{
+    margin-top: 23px;
+}
+.howBuyLi > a{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-menu2{
+    display: flex;
+    margin-top: -157px;
+    left: 0px;
+    position: relative;
+    margin-left: 745px;
+}
+.owd-mid{
+    height: 25px;
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    left: 140px;
+}
+.services{
+    position: relative;
+    top: 35px;
+    padding-top: 20px;
+    margin-top: 0px;
+    list-style-type: none;
+    margin-right: 35px;
+}
+.servicesLi{
+    margin-top: 23px;
+}
+.servicesLi > a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.nav-menu3{
+    display: flex;
+    margin-top: -157px;
+    left: 0px;
+    position: relative;
+    margin-left: 565px;
+    text-align: center;
+}
+.owd-last{
+    height: 25px;
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+}
+.ourShop{
+    position: relative;
+    top: 35px;
+    padding-top: 20px;
+    margin-top: 0px;
+    list-style-type: none;
+    margin-right: 35px;
+}
+.ourShopLi{
+    margin-top: 23px;
+}
+.ourShopLi > a{
+    text-decoration: none;
+    color: black;
+    
+}
+.emailInput{
+    width: 215px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.moshtarak{
+    height: 38px;
+    background-color: deepskyblue;
+    position: relative;
+    border: 1px solid;
+    border-radius: 2px;
+    margin-left: -8px;
+}
+.emailBox{
+    position: absolute;
+    margin: 100px;
+    margin-top: -140px;
+}
+.instagram{
+    position: relative;
+    width: 160px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 4px;
+    left: 155px;
+    bottom: 25px;
+    background: linear-gradient(
+    to right,
+    #833ab4,#fd1d1d,#fcb045
+  );
+}
+.instagram > a{
+    text-decoration: none;
+    position: absolute;
+    left: 15px;
+    top: 3px;
+    color: #fff;
+}
+.instagram > a > img{
+    position: relative;
+    margin-right: 10px;
+    top: 3px;
+}
+@media screen and (max-width:1250px){
+    .listProduct{
+        display: none;
+    }
+    .tite-name{
+        width: 100%;
+        max-width: 100%;
+        height: 530px;
+    }
+    .owl-item ul li{
+        width: 100%;
+        gap: 30px;
+        position: relative;
+    }
+    .owl-item ul{
+      
+       height: 440px;
+    }
+    .last-product{
+        margin-top: 0px;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        max-width: 1800px;
+        min-width: 1262px;
+    }
+    #hrd{
+        width: auto;
+    }
+    .next-item1 {
+        display: flex;
+        margin-top: -235px;
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        opacity: 0.3;
+        margin-left: 1185px;
+    }}
+     */

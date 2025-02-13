@@ -1,0 +1,102 @@
+ .dropdown {
+    height: 200px;
+    width: 900px;
+    display: none;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 12;
+    right: 0px;
+    
+}
+
+
+.dropdown ul{
+    list-style-type: none;
+    text-align: center;
+}
+.dropdown ul li:hover{
+    color: red;
+}
+/*
+.rightdrop{
+    position: absolute;
+   margin-left: 1000px;
+}
+.centerdrop{
+    position: absolute;
+    
+    left: 650px;
+    bottom: 23px;
+}
+.leftdrop{
+    position: absolute;
+    left: 325px;
+}
+.rightdrop > li {
+   
+    position: absolute;
+    justify-content: end;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    list-style-type: none;
+}
+.rightdrop >ul> li:hover{
+    color: #fd1d1d;
+}
+.centerdrop >ul> li:hover{
+    color: #fd1d1d;
+}
+.leftdrop >ul> li:hover{
+    color: #fd1d1d;
+}
+.uldrop > li:hover .dropdown{
+    transition: all ease 0.5;
+    display: block;
+    z-index: 10;
+}
+
+.lihover:hover{
+    color: #fd1d1d;
+}
+.rightdrop ul{
+    list-style-type: none;
+   
+    margin-top: 25px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.centerdrop ul{
+    list-style-type: none;
+   
+    margin-top: 25px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.leftdrop ul{
+    list-style-type: none;
+    
+    margin-top: 25px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.rightdrop h6{
+    font-size: 20px;
+    margin: 20px;
+}
+.centerdrop h6{
+    font-size: 20px;
+    margin: 20px;
+}
+.leftdrop h6{
+    font-size: 20px;
+    margin: 20px;
+} */

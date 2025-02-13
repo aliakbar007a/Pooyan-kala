@@ -1,0 +1,16 @@
+.navbar{
+    width: 100%;
+    flex-direction: row;
+    background-color: darkmagenta;
+    color: white;
+}
+.navbar nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.brand{
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+}

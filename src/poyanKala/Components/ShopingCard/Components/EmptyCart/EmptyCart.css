@@ -1,0 +1,27 @@
+.emptynote{
+    width: 95%;
+    background-color: #fff;
+    margin: 20px auto;
+    height: 160px;
+}
+.emptynote p{
+    background-color: #dfdfdf;
+    height: 60px;
+    margin: 30px 55px;
+    text-align: end;
+    padding: 0px 40px;
+    border-top: 5px solid #4baeff;
+    font-size: 20px;
+}
+.backtoshop{
+    border: 0.5px solid;
+    background-color: #dfdfdf;
+    width: 10%;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.backtoshop a {
+    text-decoration: none;
+    color: #000;
+}

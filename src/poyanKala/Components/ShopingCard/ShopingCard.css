@@ -1,0 +1,13 @@
+.bodyshoping{
+    width: 100%;
+    max-width: 1800px;
+    background-color: #dfdfdf;
+    height: 100%;
+    /* flex-direction: column; */
+    /* display: block;
+     position: relative;  */
+
+
+     display: contents;
+    position: absolute;
+}

@@ -1,0 +1,20 @@
+.countainerfooter{
+    padding-top: 1px;
+    height: 238px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+.footer{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.c1 img{
+    width: 140px;
+}
+.c3 img {
+    width: 100px;
+}

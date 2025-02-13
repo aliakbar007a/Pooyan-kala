@@ -1,0 +1,60 @@
+.anvaePCimg{
+    margin-top: 15px;
+    width: 300px;
+    border-radius: 7px;
+    cursor:pointer;
+}
+.anvaeLaptopimg{
+    margin-top: 15px;
+    width: 300px;
+    border-radius: 7px;
+    cursor:pointer;
+    
+}
+.anvaeScanerimg{
+    margin-top: 15px;
+    width: 300px;
+    border-radius: 7px;
+    cursor:pointer;
+}
+.anvaeConsoleimg{
+    margin-top: 15px;
+    width: 300px;
+    border-radius: 7px;
+    cursor:pointer;
+}
+.imgA{
+    max-width: 1800px;
+    width: 100%;
+    min-width: 1262px;
+}
+@media screen and (max-width:1200px) {
+    .anvaePCimg{
+        width: 295px;
+    }
+.anvaeLaptopimg{
+    width: 295px;
+}
+.anvaeScanerimg{
+    width: 295px;
+}
+.anvaeConsoleimg{
+    width: 295px;
+}
+
+}
+@media screen and (max-width:764px) {
+    .anvaePCimg{
+        width: 430px;
+    }
+.anvaeLaptopimg{
+    width: 430px;
+}
+.anvaeScanerimg{
+    width: 430px;
+}
+.anvaeConsoleimg{
+    width: 430px;
+}
+
+}

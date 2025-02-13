@@ -1,0 +1,142 @@
+/* .wogj{
+    display: flex;
+    justify-content: center;
+    max-width: 1800px;
+}
+
+.theadcart{
+    width: 98%;
+    border: 1.5px solid #ececec;
+    
+    padding: 10px ;
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+.theadcart tr{
+    display: flex;
+    gap: 10em;
+}
+.tbodycart tr{
+    display: flex;
+    gap: 10em;
+}
+
+.tbodycart{
+    width: 82%;
+    
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+} 
+.tablecart{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+    height: auto;
+    background-color: #fff;
+    justify-content: center;
+    align-items: end;
+    right: 30px;
+    gap: 2em;
+    max-width: 1800px;
+    top: 100px;
+    border: 1.5px solid #ececec;
+}
+.tbodycart tr{
+    display: flex;
+    gap: 6.5em;
+}
+.tbodycartchild2 input{
+    width: 50px;
+    height: 30px;
+}
+.tbodycartchild4{
+    width: 140px;
+    color: #cd3232;
+}
+.discountcart{
+  
+    right: 30px;
+    top: 245px;
+    width: 94%;
+    background-color: #fff;
+    text-align: end;
+   
+    padding: 10px 30px;
+    height: auto;
+    border: 1.5px solid #ececec;
+}
+.dodiscount{
+    background-color: #d4d4d4;
+    border: none;
+    padding: 3px 15px;
+    cursor: pointer;
+}
+.updatecartpage{
+    position: absolute;
+    left: 150px;
+    background-color: #d4d4d4;
+    border: none;
+    padding: 5px 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.emptyMassage{
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+} */
+.containerCartPage{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin: 0 5%;
+    border: 2px solid rgb(168, 168, 168);
+}
+.headcartpage{
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+.headcartpage ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+   
+}
+.midlecartpage{
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+.midlecartpage ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    text-align: end;
+}
+.discountcart{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+.itemname{
+    width: 175px;
+}
+.numberInput{
+    width: 40px;
+}
+.emptymassage{
+    height: 100px;
+    align-items: center;
+    margin: 6% 0;
+    font-size: 25px;
+}

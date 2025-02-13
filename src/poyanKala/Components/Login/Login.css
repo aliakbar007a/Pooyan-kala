@@ -1,0 +1,96 @@
+.body{
+    background-color: rgb(192, 188, 188);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: absolute;
+}
+.poyan{
+    color: red;
+}
+.tt{
+    position: relative;
+    
+}
+.headerLog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+.hr{
+    height: 5px; 
+   
+    width: 100%;
+    
+    margin-right: -5%
+}
+.loginPage{
+    
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    /* margin: auto; */
+    /* right: auto; */
+    text-align: center;
+    /* left: auto; */
+    /* background-color: aqua; */
+    margin: 0 auto;
+    position: absolute;
+    /* top: 0px; */
+    border: none;
+    /* width: 140px; */
+    right: 0px;
+    /* border-radius: 5px; */
+    background-color: white; 
+    font-size: 22px;
+    cursor: pointer;
+    left: 0%;
+    top: 23%;
+}
+.phone{
+    display: flex;
+    justify-content: end;
+    font-size: 17px;
+    margin-right: -50px;
+}
+.bodyLog{
+    width: 70%;
+    flex-direction: column;
+    display: flex;
+    line-height: 5%;
+   
+}
+.inputNumber{
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: #dad1d1;
+    border: 1px solid;
+    cursor: pointer;
+    height: 30px;
+}
+.btn:hover{
+    background-color: #b1a9a9;
+    transition: all ease-in-out 0.3s;
+}
+.backToPage{
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    border: 1px solid;
+    color: black;
+    background-color: #fec6c6;
+    padding: 5px;
+    cursor: pointer;
+    left: 0px;
+    position: absolute;
+}

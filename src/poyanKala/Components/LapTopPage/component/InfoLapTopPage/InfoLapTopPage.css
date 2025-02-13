@@ -1,0 +1,8 @@
+.infoLaptop{
+    width: 270px;
+}
+.infoLaptop h6{
+    font-size: 25px;
+    margin: 10px 0;
+    text-align: end;
+}

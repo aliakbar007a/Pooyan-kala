@@ -1,0 +1,144 @@
+.laptopdropdown {
+    height: 200px;
+    width: 100%;
+    display: none;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 12;
+    right: 0px;
+}
+.laptopdropdown ul{
+    list-style-type: none;
+    text-align: center;
+}
+.laptopdropdown ul li:hover{
+    color: red;
+}
+/* .lapdropdown {
+height: 200px;
+width: 1200px;
+display: none;
+background-color: #ffffff;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+margin-top: 0px;
+position: relative;
+left: 390px;
+}
+
+.lapdropdown :hover{
+
+    z-index: 200;
+    
+}
+.flexdropdown{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+} */
+/* .rightdroplap{
+   
+    
+}
+.rightdroplap ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+.rightdroplap > li { */
+    
+   
+    /* position: absolute;
+    justify-content: end;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    list-style-type: none; */
+/* }
+.rightdroplap >ul> li:hover{
+    color: #fd1d1d;
+}
+.rightdroplap h6{
+    font-size: 20px;
+    margin: 20px;
+} */
+/* .centerdroplap{
+   
+    
+} */
+/* .centerdroplap > li { */
+    
+   
+    /* position: absolute;
+    justify-content: end;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    list-style-type: none; */
+/* } */
+/* .centerdroplap >ul> li:hover{
+    color: #fd1d1d;
+} */
+/* .centerdroplap ul{
+    list-style-type: none;
+     line-height: 30px;  */
+    /* margin-top: 25px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column; */
+
+/* .centerdroplap h6{
+    font-size: 20px;
+    margin: 20px;
+}
+.leftdroplap{
+   
+  
+}
+.leftdroplap >ul> li:hover{
+    color: #fd1d1d;
+}
+.leftdroplap h6{
+    font-size: 20px;
+    margin: 20px;
+} */
+/* .leftdroplap > li {
+    
+   
+    position: absolute;
+    justify-content: end;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    list-style-type: none;
+    } */
+    /* .leftdroplap ul{
+        list-style-type: none;
+         line-height: 30px; 
+        
+    } */
+/* 
+.uldrop > li:hover .dropdown{
+    transition: all ease 0.5;
+    display: block;
+    z-index: 10;
+}
+
+.lihover:hover{
+    color: #fd1d1d;
+}
+.leftdroplap ul{
+    list-style-type: none;
+   
+    margin-top: 25px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+ */

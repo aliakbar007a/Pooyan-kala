@@ -1,0 +1,17 @@
+.backtoup{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    background-color: #fff;
+    border: 0.1px solid black;
+    margin-top: 30px;
+    cursor: pointer;
+    max-width: 1800px;
+    min-width: 1262px;
+    display: block;
+}
+.backtoup:hover{
+    background-color: aquamarine;
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline;
+}
