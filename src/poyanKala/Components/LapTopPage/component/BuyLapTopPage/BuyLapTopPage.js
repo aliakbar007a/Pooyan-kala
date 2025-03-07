@@ -2,6 +2,7 @@ import React from 'react';
 import './BuyLapTopPage.css'
 import { useState } from 'react'
 import {  useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 export const BuyLapTopPage = ()=>{
     const [laptopItems]  = useState([
@@ -29,16 +30,22 @@ export const BuyLapTopPage = ()=>{
             console.log(updateCart);
             
             localStorage.setItem("cartItems" , JSON.stringify(updateCart)) ; 
-            alert(` با موققیت در سبد ذخیره شد`)
+            showAlert()
             navigate("/shopingcard" , {state : {laptopItems } })
         }
-
+        const showAlert =()=>{
+                 Swal.fire({
+                    title: "با موققیت در سبد ذخیره شد",
+                    text:  " لپ تاب 15.6 اینچی ایسوس مدل vivoboock F1504VA-i3 1315U 8GB 512SSD UHD",
+                    icon: "success"
+                 })
+               }
     return(
         <React.Fragment>
                <div className="spaninfops5t0">
                <span className="shenast0"> شناسه محصول: 1234</span>
                <span className="dasteht0"> دسته: پلی استیشن- کنسول بازی </span>
-               <p className="pricet0">تومان 1000000</p>
+               <p className="pricet0">تومان 2000000</p>
                <button className="addtocartt0" onClick={()=>{addToCart()}}> افزودن به سبد خرید </button> 
               </div>
              

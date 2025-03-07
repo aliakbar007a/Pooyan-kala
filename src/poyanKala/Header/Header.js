@@ -3,9 +3,10 @@ import './Header.css'
 import searchLogo from '../imgs/search icon Red.png'
 import buyIcon from '../imgs/bay icon red.png'
 import { Pishkhan } from '../Components/Pishkhan/Pishkhan'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useContext } from 'react'
 import { Link } from 'react-router-dom'
 import React from 'react'
+import { shopingCardContext } from '../../App'
 
 export const Header = ()=>{
     const suggestions = ["laptop", "لپ تاپ", "ps5","پلی استیشن 5", "سونی  پلی استیشن 5 اسلیم استاندارد  ps5 slim standard اروپا 2016","لپ تاب 15.6 اینچی ایسوس مدل vivoboock F1504VA-i3 1315U 8GB 512SSD UHD"]
@@ -13,10 +14,25 @@ export const Header = ()=>{
     const [result , setResult] = useState([])
     const [show , setShow] = useState(false)
     const [istrue , setIstrue] = useState(false)
-    const shoooo=()=>{
+    const [cartItems, setCartItems] = useState( [] );
+    
+    const [number , setNumber] = useState(null)
+    const { productInBox } = useContext(shopingCardContext)
+    const shoooo=()=>{ 
         setShow(!show)
     }
+   useEffect(() => {
+       const dataCart = localStorage.getItem("cartItems")
+       const parsedCart = JSON.parse(dataCart).length
+       setNumber(parsedCart);
+       
+       setCartItems(parsedCart)
+       
    
+        console.log(cartItems.length);
+        
+     //   setNumber(cartItems.length)
+      },[])
     useEffect(()=>{
         if(searchingInputValue){
         console.log(suggestions);
@@ -28,8 +44,8 @@ export const Header = ()=>{
         const filterWordSearch =  suggestions.filter((word)=>{
         return word.toLowerCase().includes(searchingInputValue)})
         setResult(filterWordSearch)
-        console.log(filterWordSearch);
-        console.log(result);
+       
+   
         
         // wordsGnrator(result)
         
@@ -46,8 +62,10 @@ export const Header = ()=>{
             <h1 className="poyanKala">پویان کالا</h1>
         </div>
         <div className={istrue?'searchBox activeli':'searchBox'}>
-            <input value={searchingInputValue} onChange={(e) => setSearchingInputValue(e.target.value.toLowerCase())} type="text" placeholder="جست و جو در محصولات" className="input"/>
-             <img src={searchLogo} className="seracIcon"/> 
+           <div className='search'>
+           <input value={searchingInputValue} onChange={(e) => setSearchingInputValue(e.target.value.toLowerCase())} type="text" placeholder="جست و جو در محصولات" className="input"/>
+           <img src={searchLogo} className="seracIcon"/> 
+           </div>
             
             <div className="autocom-box">
                 {/* {customListItem && customListItem} */}
@@ -63,16 +81,19 @@ export const Header = ()=>{
             </div>
         </div>
         <div className="left-nav">
-            <div className="sabtnam">
+           
                 <button className='login' onClick={shoooo}> |  ورود/ ثبت نام</button>
                 {show && <Pishkhan/>}
-            </div>
-            <div className="bayBox">
+            
+            
                 <Link to='/shopingcard'>
-                <img src={buyIcon} alt="" className="buyIcon"/>
+                
+                    <p className='productInBox'>{number}</p> 
+                
+               
                 <span className="buy-note">سبد خرید</span>
                 </Link>
-            </div>
+           
         </div>
     </div>
   

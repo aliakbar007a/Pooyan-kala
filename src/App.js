@@ -25,13 +25,17 @@ import { SingUp } from "./poyanKala/Components/SingUp/SingUp";
 import { Ps5Page } from "./poyanKala/Components/Tamrin/Ps5Page";
 import { ShopingCard } from "./poyanKala/Components/ShopingCard/ShopingCard";
 import {Tamrin} from "./poyanKala/Components/Tamrin/Ps5Page"
+
+import { createContext } from "react";
+
+export const shopingCardContext = createContext()
 function App() {
-  
+  const [productInBox , setProductInBox] = useState(0)
   
 
   return (
     <div className="App">
-      
+      <shopingCardContext.Provider value={{productInBox , setProductInBox}}>
       <Router>
       
         <Routes>
@@ -45,7 +49,7 @@ function App() {
         </Routes>
        
       </Router>
-      
+      </shopingCardContext.Provider>
     </div>
   );
 }

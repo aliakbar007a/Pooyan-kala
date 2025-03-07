@@ -1,6 +1,7 @@
 import React from "react"; 
 import { createContext, useContext, useState } from 'react'
 import {  Link, useNavigate } from 'react-router-dom';
+import Swal from "sweetalert2";
 const AddToCartButton = () => {
    
    const [ps5Items]  = useState([
@@ -29,8 +30,17 @@ const AddToCartButton = () => {
          //   console.log(navigator.storage);
            
            
-           alert(` با موققیت در سبد ذخیره شد`)
+         
+         showAlert()
            navigate("/shopingcard" )
+       }
+
+       const showAlert =()=>{
+         Swal.fire({
+            title: "با موققیت در سبد ذخیره شد",
+            text: "سونی  پلی استیشن 5 اسلیم استاندارد  ps5 slim standard اروپا 2016",
+            icon: "success"
+         })
        }
 
      return (
